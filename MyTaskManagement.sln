@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTaskManagement.Core", "My
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MyTaskManagement.MsSqlDatabase", "MyTaskManagement.MsSqlDatabase\MyTaskManagement.MsSqlDatabase.sqlproj", "{101626D9-CA51-4287-A38C-91203050B536}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTaskManagement.UI.BlazorWA", "MyTaskManagement.UI.BlazorWA\MyTaskManagement.UI.BlazorWA.csproj", "{30213345-C599-466A-948D-B467E60CFA5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{101626D9-CA51-4287-A38C-91203050B536}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{101626D9-CA51-4287-A38C-91203050B536}.Release|Any CPU.Build.0 = Release|Any CPU
 		{101626D9-CA51-4287-A38C-91203050B536}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{30213345-C599-466A-948D-B467E60CFA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30213345-C599-466A-948D-B467E60CFA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30213345-C599-466A-948D-B467E60CFA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30213345-C599-466A-948D-B467E60CFA5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
